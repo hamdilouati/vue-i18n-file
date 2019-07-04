@@ -26,7 +26,7 @@ npm install vue-i18n-file
 ```
 ## Usage
 
-####Generate
+###Generate
 
 
 The generated file contains all translations in vue components found in the selected directories
@@ -34,7 +34,7 @@ The generated file contains all translations in vue components found in the sele
 vue-i18n-file generate
 ```
 
-####merge
+###merge
 
 If you need to merge existing translations with vue-i18n-file generated file you can use this option
 ``` bash
@@ -42,7 +42,7 @@ vue-i18n-file merge
 ```
 
 
-####replace
+###replace
 
 This option allows you to replace translations in vue components with those in the file
 ``` bash
@@ -50,9 +50,9 @@ vue-i18n-file replace
 ```
 
 
-####diff
+###diff
 
-allows you to see the difference between the translations in vue components and the file
+Allows you to see the difference between the translations in vue components and the file
 ``` bash
 vue-i18n-file diff
 ```
